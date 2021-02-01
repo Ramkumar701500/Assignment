@@ -10,5 +10,4 @@ About Assignment:
 
 5. In Login page, fill all the details inorder to get into next page.
 
-6. Login Page Using Social is made separately i.e. not combined with the index html page.
 
