@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/register.css">
+    <title>Register Page</title>
+</head>
+
+<body>
+
+    <form action="login.html">
+        <div class="container">
+            <h1>Register Page</h1>
+            <p style="text-align: center">Please fill in this form to create an account.</p>
+            <hr>
+
+            <label for="Full Name"><b>Full Name</b></label>
+            <input type="text" placeholder="Enter Your Full Name" name="Full Name" id="Full Name" required>
+
+            <label for="email"><b>Email</b></label>
+            <input type="email" placeholder="Enter Your Email" name="email" id="email" required>
+
+            <label for="Mobile Number"><b>Mobile Number</b></label>
+            <input type="number" placeholder="Enter Your Mobile Number" name="Mobile Number" id="Mobile Number" required>
+
+            <label for="Date Of Birth"><b>Date Of Birth</b></label><br/>
+            <input type="date" name="Date Of Birth" id="dob" required><br/>
+
+            <label for="gender"><b>Gender</b></label><br/>
+            <input type="radio" name="gender" value="Male"> Male<br>
+            <input type="radio" name="gender" value="Female"> Female<br>
+            <input type="radio" name="gender" value="Other"> Other<br/><br/>
+
+            <label for="Username"><b>Username</b></label>
+            <input type="text" placeholder="Enter Your Username" name="Username" id="Username" required>
+
+            <label for="password"><b>Password</b></label>
+            <input type="password" placeholder="Enter Your Password" name="password" id="password" required>
+
+            <label for="password-repeat"><b>Repeat Password</b></label>
+            <input type="password" placeholder="Repeat Your Password" name="password-repeat" id="password-repeat" required>
+            <hr>
+            <p style="text-align: center">By creating an account you agree to our <a href="#" style="color:white">Terms & Privacy</a> </p>
+
+            <button type="submit" class="registerbtn">Register</button>
+        </div>
+
+        <div class="container-signin">
+            <p style="text-align: center">Already have an account? <a href="#">Sign in</a>.</p>
+        </div>
+    </form>
+
+</body>
+
+</html>
